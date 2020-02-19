@@ -7,6 +7,11 @@ import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 import Rating from '@material-ui/lab/Rating';
 import Box from '@material-ui/core/Box';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
+import Grid from '@material-ui/core/Grid';
 
 const labels = {
   0.5: 'Useless',
@@ -29,6 +34,15 @@ const useStyles = makeStyles(theme => ({
   selectEmpty: {
     marginTop: theme.spacing(2),
     width: 180
+  },
+  media: {
+    height: 50
+  },
+  root: {
+    flexGrow: 1
+  },
+  control: {
+    padding: theme.spacing(2)
   }
 }));
 
@@ -40,7 +54,7 @@ export default function SimpleSelect() {
   const [locality, setLocality] = React.useState('');
   const [avgCost, setAvgCost] = React.useState('');
   const [event, setEvent] = React.useState('');
-
+  const [spacing, setSpacing] = React.useState(2);
   const handleChangeLocation = event => {
     setLocality(event.target.value);
   };
@@ -165,7 +179,9 @@ export default function SimpleSelect() {
       </FormControl>
 
       <div className='App'>
-        <InputLabel size='medium'>Current Rating</InputLabel>
+        <Typography gutterBottom variant='h5' component='h2'>
+          Current Raring is
+        </Typography>
         <Rating
           name='hover-feedback'
           value={value}
@@ -180,6 +196,101 @@ export default function SimpleSelect() {
         {value !== null && (
           <Box ml={2}>{labels[hover !== -1 ? hover : value]}</Box>
         )}
+        <div>
+          <Typography gutterBottom variant='h5' component='h2'>
+            Famous Menu is: DOSA...
+          </Typography>
+        </div>
+
+        <Grid container className={classes.root} spacing={2}>
+          <Grid item xs={4}>
+            <Grid container justify='center' spacing={spacing}>
+              <Grid>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    title='Contemplative Reptile'
+                  />
+                  <img
+                    src={require('./image/img_avatar.png')}
+                    alt='profile'
+                    className='img'
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant='h5' component='h2'>
+                      Lizard
+                    </Typography>
+                    <Typography
+                      variant='body2'
+                      color='textSecondary'
+                      component='p'
+                    >
+                      Lizards are a widespread group
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={4}>
+            <Grid container justify='center' spacing={spacing}>
+              <Grid>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    title='Contemplative Reptile'
+                  />
+                  <img
+                    src={require('./image/img_avatar.png')}
+                    alt='profile'
+                    className='img'
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant='h5' component='h2'>
+                      Lizard
+                    </Typography>
+                    <Typography
+                      variant='body2'
+                      color='textSecondary'
+                      component='p'
+                    >
+                      Lizards are a widespread group
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={4}>
+            <Grid container justify='center' spacing={spacing}>
+              <Grid>
+                <CardActionArea>
+                  <CardMedia
+                    className={classes.media}
+                    title='Contemplative Reptile'
+                  />
+                  <img
+                    src={require('./image/img_avatar.png')}
+                    alt='profile'
+                    className='img'
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant='h5' component='h2'>
+                      Lizard
+                    </Typography>
+                    <Typography
+                      variant='body2'
+                      color='textSecondary'
+                      component='p'
+                    >
+                      Lizards are a widespread group
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
       </div>
     </div>
   );
