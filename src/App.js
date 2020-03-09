@@ -5,8 +5,6 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import Rating from '@material-ui/lab/Rating';
-import Box from '@material-ui/core/Box';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -180,27 +178,8 @@ export default function SimpleSelect() {
 
       <div className='App'>
         <Typography gutterBottom variant='h5' component='h2'>
-          Current Raring is
+          Prediction Raring is : 5
         </Typography>
-        <Rating
-          name='hover-feedback'
-          value={value}
-          precision={4}
-          // onChange={(event, newValue) => {
-          //   setValue(newValue);
-          // }}
-          // onChangeActive={(event, newHover) => {
-          //   setHover(newHover);
-          // }}
-        />
-        {value !== null && (
-          <Box ml={2}>{labels[hover !== -1 ? hover : value]}</Box>
-        )}
-        <div>
-          <Typography gutterBottom variant='h5' component='h2'>
-            Famous Menu is: DOSA...
-          </Typography>
-        </div>
 
         <Grid container className={classes.root} spacing={2}>
           <Grid item xs={4}>
