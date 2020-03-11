@@ -4,9 +4,9 @@ body {
 
 .App {
   text-align: center;
-  background-color: rgb(119, 195, 109);
+  background-color: hsl(0, 0%, 100%);
   min-height: 500px;
-  width: 700px;
+  width: 80%;
   margin: 40px auto;
   border-radius: 5px;
 }
