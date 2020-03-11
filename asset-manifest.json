@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Zomato-Data-Analysis-Restaurant-Prediction/static/css/main.4dcedad1.chunk.css",
-    "main.js": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/main.22497e48.chunk.js",
-    "main.js.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/main.22497e48.chunk.js.map",
+    "main.css": "/Zomato-Data-Analysis-Restaurant-Prediction/static/css/main.7520815f.chunk.css",
+    "main.js": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/main.f08e8970.chunk.js",
+    "main.js.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/main.f08e8970.chunk.js.map",
     "runtime-main.js": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/runtime-main.a59ae248.js",
     "runtime-main.js.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/runtime-main.a59ae248.js.map",
-    "static/js/2.d0e73429.chunk.js": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/2.d0e73429.chunk.js",
-    "static/js/2.d0e73429.chunk.js.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/2.d0e73429.chunk.js.map",
+    "static/js/2.0e5971ae.chunk.js": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/2.0e5971ae.chunk.js",
+    "static/js/2.0e5971ae.chunk.js.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/2.0e5971ae.chunk.js.map",
     "index.html": "/Zomato-Data-Analysis-Restaurant-Prediction/index.html",
-    "precache-manifest.65e639a30d3331002d0ecc7127610865.js": "/Zomato-Data-Analysis-Restaurant-Prediction/precache-manifest.65e639a30d3331002d0ecc7127610865.js",
+    "precache-manifest.a974923ccd4fb4dfc5ff154f350d7dbd.js": "/Zomato-Data-Analysis-Restaurant-Prediction/precache-manifest.a974923ccd4fb4dfc5ff154f350d7dbd.js",
     "service-worker.js": "/Zomato-Data-Analysis-Restaurant-Prediction/service-worker.js",
-    "static/css/main.4dcedad1.chunk.css.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/css/main.4dcedad1.chunk.css.map",
-    "static/js/2.d0e73429.chunk.js.LICENSE.txt": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/2.d0e73429.chunk.js.LICENSE.txt"
+    "static/css/main.7520815f.chunk.css.map": "/Zomato-Data-Analysis-Restaurant-Prediction/static/css/main.7520815f.chunk.css.map",
+    "static/js/2.0e5971ae.chunk.js.LICENSE.txt": "/Zomato-Data-Analysis-Restaurant-Prediction/static/js/2.0e5971ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a59ae248.js",
-    "static/js/2.d0e73429.chunk.js",
-    "static/css/main.4dcedad1.chunk.css",
-    "static/js/main.22497e48.chunk.js"
+    "static/js/2.0e5971ae.chunk.js",
+    "static/css/main.7520815f.chunk.css",
+    "static/js/main.f08e8970.chunk.js"
   ]
 }

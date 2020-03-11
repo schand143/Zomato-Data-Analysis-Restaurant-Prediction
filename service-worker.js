@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Zomato-Data-Analysis-Restaurant-Prediction/precache-manifest.65e639a30d3331002d0ecc7127610865.js"
+  "/Zomato-Data-Analysis-Restaurant-Prediction/precache-manifest.a974923ccd4fb4dfc5ff154f350d7dbd.js"
 );
 
 self.addEventListener('message', (event) => {
